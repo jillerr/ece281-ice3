@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../ECE281ICE2/ece281-ice2/src/hdl/halfAdder.vhd" \
+"../../../../src/hdl/top_basys3.vhd" \
+"../../../../src/hdl/top_basys3_tb.vhd" \
+
+# Do not sort compile order
+nosort
